@@ -1,0 +1,39 @@
+body {
+  transition: background-color 0.5s ease;
+  background-color: #333333;
+}
+h1, h2 {
+  display: inline-block;
+  text-transform: lowercase;
+}
+h1 {
+  transition: color 0.5s ease;
+  color: #ffffff;
+}
+h2 {
+  transition: color 0.5s ease;
+  color: #cccccc;
+}
+.network_status {
+  position: absolute;
+  top: .25rem;
+  right: .25rem;
+}
+/*.network_status svg {*/
+/*  stroke: #666;*/
+/*  color: #666*/
+/*}*/
+
+html.offline body {
+  background-color: #ccc;
+}
+html.offline h1 {
+  color: #000;
+}
+html.offline h2 {
+  color: #666;
+}
+/*html.offline .network_status svg {*/
+/*  stroke: #000;*/
+/*  color: #000;*/
+/*}*/

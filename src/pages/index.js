@@ -1,25 +1,25 @@
-import React, { useEffect } from 'react';
-import { useNetworkAvailability } from 'web-api-hooks';
-import NetworkStatus from '../components/NetworkStatus';
+import React from 'react';
 
-/**
- * online/offline taken from https://github.com/chrisbolin/react-detect-offline
- */
+import Layout from '../components/Layout';
+import SEO from '../components/SEO';
 
-const IndexPage = () => {
-  const isOnline = useNetworkAvailability();
+import './index.css';
 
-  useEffect(() => {
-    document.documentElement.classList[isOnline ? 'remove' : 'add']('offline');
-  }, [isOnline]);
+const IndexPage = () => (
+  <Layout>
+    <SEO title="Home" />
 
-  return (
-    <Fragment>
-      <NetworkStatus isOnline={isOnline} />
+    <div
+      style={{
+        textAlign: 'center',
+        position: 'relative',
+        top: '45vh'
+      }}
+    >
       <h2>Michael</h2>
       <h1>Fitzpatrick</h1>
-    </Fragment>
-  )
-};
+    </div>
+  </Layout>
+);
 
 export default IndexPage

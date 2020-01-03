@@ -1,22 +1,27 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
+
 import WifiOnIcon from '@material-ui/icons/Wifi';
 import WifiOffIcon from '@material-ui/icons/WifiOff';
 
 const Online = () => (
-  <Fragment>
-    You are online <WifiOnIcon />
-  </Fragment>
+  <WifiOnIcon style={{
+    color: '#fff'
+  }} />
 );
 const Offline = () => (
-  <Fragment>
-    You are offline <WifiOffIcon />
-  </Fragment>
+  <WifiOffIcon style={{
+    color: '#000'
+  }} />
 );
 
 const NetworkStatus = ({
   isOnline
-}) => isOnline ? <Online /> : <Offline />;
+}) => (
+  <div className="network_status">
+    {isOnline ? <Online /> : <Offline />}
+  </div>
+);
 
 NetworkStatus.propTypes = {
   isOnline: PropTypes.bool.isRequired
