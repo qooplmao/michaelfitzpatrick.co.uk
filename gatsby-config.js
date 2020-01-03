@@ -1,6 +1,18 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Default Starter',
+    title: 'michaelfitzpatrick',
   },
-  plugins: ['gatsby-plugin-react-helmet'],
-}
+  plugins: [
+    'gatsby-plugin-react-helmet',
+    'gatsby-plugin-offline',
+    {
+      resolve: 'gatsby-plugin-google-analytics',
+      options: {
+        trackingId: 'UA-125869489-1',
+        head: true,
+        anonymize: false,
+        respectDNT: true
+      },
+    },
+  ],
+};

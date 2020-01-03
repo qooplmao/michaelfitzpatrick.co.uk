@@ -1,13 +1,19 @@
 {
-  "name": "mf1/gatsby",
+  "name": "mf1-gatsby",
   "description": "Personal site",
   "version": "0.1",
   "author": "Michael Fitzpatrick <fitz@mf1.co.uk>",
   "dependencies": {
-    "gatsby": "^1.9.247",
-    "gatsby-link": "^1.6.40",
-    "gatsby-plugin-react-helmet": "^2.0.10",
-    "react-helmet": "^5.2.0"
+    "@material-ui/icons": "^4.5.1",
+    "gatsby": "^2.18.17",
+    "gatsby-link": "^2.2.27",
+    "gatsby-plugin-google-analytics": "^2.1.31",
+    "gatsby-plugin-offline": "^3.0.30",
+    "gatsby-plugin-react-helmet": "^3.1.18",
+    "react": "^16.12.0",
+    "react-helmet": "^5.2.1",
+    "s3-deploy": "^1.4.0",
+    "web-api-hooks": "^2.2.2"
   },
   "keywords": [
     "gatsby",
@@ -17,9 +23,10 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
-    "develop": "sudo gatsby develop --port 80 --host gatsby.mf1.co.uk.loc",
+    "develop": "CHOKIDAR_USEPOLLING=true gatsby develop --port 80 --host 0.0.0.0",
     "format": "prettier --write 'src/**/*.js'",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "rm -rf ./public && gatsby build --prefix-paths && s3-deploy './public/**' --cwd './public/' --bucket michaelfitzpatrick.co.uk  --region eu-west-2 --distId E3TDWGNBMU01ML --signatureVersion v4 --deleteRemoved --invalidate '/*' --cache 86400"
   },
   "devDependencies": {
     "prettier": "^1.12.0"

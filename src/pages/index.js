@@ -1,13 +1,25 @@
-import React from 'react'
-import Link from 'gatsby-link'
+import React, { useEffect } from 'react';
+import { useNetworkAvailability } from 'web-api-hooks';
+import NetworkStatus from '../components/NetworkStatus';
 
-const IndexPage = () => (
-  <div>
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <Link to="/page-2/">Go to page 2</Link>
-  </div>
-)
+/**
+ * online/offline taken from https://github.com/chrisbolin/react-detect-offline
+ */
+
+const IndexPage = () => {
+  const isOnline = useNetworkAvailability();
+
+  useEffect(() => {
+    document.documentElement.classList[isOnline ? 'remove' : 'add']('offline');
+  }, [isOnline]);
+
+  return (
+    <Fragment>
+      <NetworkStatus isOnline={isOnline} />
+      <h2>Michael</h2>
+      <h1>Fitzpatrick</h1>
+    </Fragment>
+  )
+};
 
 export default IndexPage
