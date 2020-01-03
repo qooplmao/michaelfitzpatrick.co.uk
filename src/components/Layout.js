@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import { useNetworkAvailability } from 'web-api-hooks';
 import NetworkStatus from './NetworkStatus';
 
-import './layout.css';
+import './Layout.css';
 
 const Layout = ({ children }) => {
   const isOnline = useNetworkAvailability();
