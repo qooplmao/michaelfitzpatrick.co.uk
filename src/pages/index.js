@@ -3,11 +3,14 @@ import React from 'react';
 import Layout from '../components/Layout';
 import SEO from '../components/SEO';
 
-import './index.css';
+import GitHubIcon from '@material-ui/icons/GitHub';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
+
+import './index.scss';
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Michael Fitzpatrick - Full Stack PHP Developer" />
 
     <div
       style={{
@@ -16,8 +19,19 @@ const IndexPage = () => (
         top: '45vh'
       }}
     >
-      <h2>Michael</h2>
-      <h1>Fitzpatrick</h1>
+      <h1>
+        <span>Michael</span>
+        <span>Fitzpatrick</span>
+      </h1>
+
+      <div className="social_links">
+        <a href="https://github.com/qooplmao" target="_blank" rel="noopener noreferrer">
+          <GitHubIcon color="primary" />
+        </a>
+        <a href="https://www.linkedin.com/in/qooplmao" target="_blank" rel="noopener noreferrer">
+          <LinkedInIcon color="primary" />
+        </a>
+      </div>
     </div>
   </Layout>
 );

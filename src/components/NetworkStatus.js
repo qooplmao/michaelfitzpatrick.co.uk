@@ -5,14 +5,10 @@ import WifiOnIcon from '@material-ui/icons/Wifi';
 import WifiOffIcon from '@material-ui/icons/WifiOff';
 
 const Online = () => (
-  <WifiOnIcon style={{
-    color: '#fff'
-  }} />
+  <WifiOnIcon color="primary" />
 );
 const Offline = () => (
-  <WifiOffIcon style={{
-    color: '#000'
-  }} />
+  <WifiOffIcon color="primary" />
 );
 
 const NetworkStatus = ({

@@ -6,6 +6,6 @@ services:
       context: ./
     volumes:
       - ./:/app
-#      - ~/Sites/.docker/yarn-cache:/root/.yarn-cache
+      - ~/Sites/.docker/yarn-cache:/root/.yarn-cache
     ports:
       - 80:80
