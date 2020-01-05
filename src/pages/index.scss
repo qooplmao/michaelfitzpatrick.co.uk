@@ -3,6 +3,16 @@ $secondaryOnline: #fff;
 $primaryOffline: #333;
 $secondaryOffline: #000;
 
+html {
+  @media only screen and (max-width: 340px) {
+	font-size: 125%;
+  }
+
+  @media only screen and (min-width: 341px) and (max-width: 720px) {
+	font-size: 150%;
+  }
+}
+
 body {
   transition: background-color 0.5s ease;
   background-color: $primaryOffline;
