@@ -6,6 +6,13 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    {
+      resolve: `gatsby-plugin-react-helmet-canonical-urls`,
+      options: {
+        siteUrl: `https://michaelfitzpatrick.co.uk`,
+      },
+    },
+    `gatsby-plugin-remove-generator`,
     // {
     //   resolve: `gatsby-plugin-manifest`,
     //   options: {
@@ -18,8 +25,6 @@ module.exports = {
     //     icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
     //   },
     // },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
     'gatsby-plugin-offline',
     {
       resolve: 'gatsby-plugin-google-analytics',
