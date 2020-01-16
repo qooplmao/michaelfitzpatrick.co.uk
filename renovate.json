@@ -2,5 +2,9 @@
   "extends": [
     "config:base"
   ],
-  "baseBranches": ["master"]
+  "baseBranches": ["master"],
+  "packageRules": [{
+    "updateTypes": ["minor", "patch", "pin", "digest"],
+    "automerge": true
+  }]
 }
