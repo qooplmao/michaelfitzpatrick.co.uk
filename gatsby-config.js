@@ -26,6 +26,26 @@ module.exports = {
     //     icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
     //   },
     // },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Michael Fitzpatrick`,
+        short_name: `Michael Fitzpatrick`,
+        start_url: `/`,
+        background_color: `#333`,
+        theme_color: `#ccc`,
+        display: `standalone`,
+        icons:[{
+          src: `/icons/android-chrome-192x192.png`,
+          sizes: `192x192`,
+          type: `image/png`
+        },{
+          src: `/icons/android-chrome-512x512.png`,
+          sizes: `512x512`,
+          type: `image/png`
+        }]
+      },
+    },
     'gatsby-plugin-offline',
     {
       resolve: 'gatsby-plugin-google-analytics',
