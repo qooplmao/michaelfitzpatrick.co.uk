@@ -7,9 +7,9 @@
   "dependencies": {
     "@material-ui/core": "4.9.4",
     "@material-ui/icons": "4.9.1",
-    "gatsby": "2.19.19",
-    "gatsby-plugin-google-analytics": "2.1.35",
-    "gatsby-plugin-manifest": "2.2.41",
+    "gatsby": "2.19.20",
+    "gatsby-plugin-google-analytics": "2.1.36",
+    "gatsby-plugin-manifest": "2.2.42",
     "gatsby-plugin-offline": "3.0.35",
     "gatsby-plugin-react-helmet": "3.1.22",
     "gatsby-plugin-react-helmet-canonical-urls": "1.4.0",
