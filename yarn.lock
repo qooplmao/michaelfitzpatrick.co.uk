@@ -6721,10 +6721,6 @@ neo-async@^2.5.0, neo-async@^2.6.1:
   version "2.6.1"
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.1.tgz#ac27ada66167fa8849a6addd837f6b189ad2081c"
 
-network-information-types@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/network-information-types/-/network-information-types-0.1.0.tgz#5c880bebc2a9e6b25eb00ed23854d13ff3a7fe3a"
-
 nice-try@^1.0.4:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/nice-try/-/nice-try-1.0.5.tgz#a3378a7696ce7d223e88fc9b764bd7ef1089e366"
@@ -10076,12 +10072,11 @@ wbuf@^1.1.0, wbuf@^1.7.3:
   dependencies:
     minimalistic-assert "^1.0.0"
 
-web-api-hooks@2.2.2:
-  version "2.2.2"
-  resolved "https://registry.yarnpkg.com/web-api-hooks/-/web-api-hooks-2.2.2.tgz#67fe40a912b7548ba4f98ec274db8a71fcd97db6"
+web-api-hooks@3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/web-api-hooks/-/web-api-hooks-3.0.1.tgz#4024bd2ab61998973a4282e80a4bece6ada0b17e"
   dependencies:
     "@types/resize-observer-browser" "^0.1.2"
-    network-information-types "^0.1.0"
 
 webpack-dev-middleware@^3.7.2:
   version "3.7.2"

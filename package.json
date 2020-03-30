@@ -21,7 +21,7 @@
     "react-dom": "16.13.1",
     "react-helmet": "5.2.1",
     "s3-deploy": "1.4.0",
-    "web-api-hooks": "2.2.2"
+    "web-api-hooks": "3.0.1"
   },
   "devDependencies": {
     "prettier": "2.0.2"
