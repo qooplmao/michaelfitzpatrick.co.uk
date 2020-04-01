@@ -7,7 +7,7 @@
   "dependencies": {
     "@material-ui/core": "4.9.8",
     "@material-ui/icons": "4.9.1",
-    "gatsby": "2.20.9",
+    "gatsby": "2.20.10",
     "gatsby-plugin-google-analytics": "2.2.2",
     "gatsby-plugin-manifest": "2.3.3",
     "gatsby-plugin-offline": "3.1.2",
