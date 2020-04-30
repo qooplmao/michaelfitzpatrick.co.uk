@@ -4900,9 +4900,9 @@ gatsby-telemetry@^1.3.0:
     stack-utils "1.0.2"
     uuid "3.4.0"
 
-gatsby@2.21.6:
-  version "2.21.6"
-  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.21.6.tgz#e5eced3cfbd03709cce0515f17e904d73f308663"
+gatsby@2.21.7:
+  version "2.21.7"
+  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.21.7.tgz#b8a4fcb9d3f1f82bdc03dc6a98faa4ecf6324f87"
   dependencies:
     "@babel/code-frame" "^7.8.3"
     "@babel/core" "^7.9.0"
