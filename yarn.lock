@@ -12284,9 +12284,10 @@ wbuf@^1.1.0, wbuf@^1.7.3:
   dependencies:
     minimalistic-assert "^1.0.0"
 
-web-api-hooks@3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/web-api-hooks/-/web-api-hooks-3.0.1.tgz#4024bd2ab61998973a4282e80a4bece6ada0b17e"
+web-api-hooks@3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/web-api-hooks/-/web-api-hooks-3.0.2.tgz#498bf290ab97300b7eb47a2f767ff1741768a8f0"
+  integrity sha512-EQEGcHo1+FVINg5spKw05lBiN1/LhRK/K2xKnUmuLsLzz4sQK8Bk8qhj4RUgsh4LA7XXZqgJ43aQI+nvtMmIqA==
   dependencies:
     "@types/resize-observer-browser" "^0.1.2"
 
