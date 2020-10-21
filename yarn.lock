@@ -6047,10 +6047,10 @@ gatsby-plugin-manifest@2.4.35:
     semver "^7.3.2"
     sharp "^0.25.4"
 
-gatsby-plugin-offline@3.2.35:
-  version "3.2.35"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-offline/-/gatsby-plugin-offline-3.2.35.tgz#c31450bdee2ffce7ffa523a83985f91b1bdb79e7"
-  integrity sha512-qiv4ry+6053bpXyc8zjTWiOpslMpjVGXdUFTVnUv/ffzvQS4jhXty7uC2mC0H9LwOvSUFmiIuNZ81oVs+XiFEw==
+gatsby-plugin-offline@3.2.36:
+  version "3.2.36"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-offline/-/gatsby-plugin-offline-3.2.36.tgz#fde206f72d7736b09c4c151ecff9c49e047a7c30"
+  integrity sha512-GEjFZaoNKOZXk5WF2LnUf4qfPlCAvTd44/mLXMSksvBcLA3l4Sl+63+yaBOzob2tIWx2kxCwKpDaccZ3R8Jt0g==
   dependencies:
     "@babel/runtime" "^7.11.2"
     cheerio "^1.0.0-rc.3"
@@ -6092,10 +6092,10 @@ gatsby-plugin-remove-generator@1.0.6:
   resolved "https://registry.yarnpkg.com/gatsby-plugin-remove-generator/-/gatsby-plugin-remove-generator-1.0.6.tgz#1ba30848c31a38951dff2da7436360877b74b2b4"
   integrity sha512-mL7O1AoIHw2LCLm74hKnnFAmfoqvn+nQc+9oB8C9g3yzeQZsxPbnjbD87zOteXzWhdTrPSfgnKb/SYnHudj4Ow==
 
-gatsby-plugin-sass@2.3.19:
-  version "2.3.19"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-sass/-/gatsby-plugin-sass-2.3.19.tgz#0c31e1225ec2a757d5be7cd1dd06b65d2094db46"
-  integrity sha512-PornlaMTjcfin4ylIozTNcff+ZpTYflFZwIuMOwM3OB5yMQEXRhGS/YVPvBtEtDoerhuDVVwX+Gylbdy55XjWQ==
+gatsby-plugin-sass@2.3.20:
+  version "2.3.20"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-sass/-/gatsby-plugin-sass-2.3.20.tgz#aa721947947c82ba2822ab8238deaff0c5be2fad"
+  integrity sha512-vVb5xEXcWVKIYpDN7V3nVNrJamLzmz3QkaLQNI+cA47bAqJg9mrseShTN4wrvi54DGcBcGo3JaZfASCHZU5rbw==
   dependencies:
     "@babel/runtime" "^7.11.2"
     sass-loader "^7.3.1"
