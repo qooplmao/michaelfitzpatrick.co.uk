@@ -17,7 +17,7 @@
     "gatsby-plugin-sass": "2.3.21",
     "node-sass": "4.14.1",
     "prop-types": "15.7.2",
-    "react": "17.0.0",
+    "react": "17.0.1",
     "react-dom": "16.14.0",
     "react-helmet": "6.1.0",
     "s3-deploy": "1.4.0",
