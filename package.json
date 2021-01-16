@@ -13,7 +13,7 @@
     "gatsby-plugin-offline": "3.8.0",
     "gatsby-plugin-react-helmet": "3.8.0",
     "gatsby-plugin-react-helmet-canonical-urls": "1.4.0",
-    "gatsby-plugin-remove-generator": "1.0.7",
+    "gatsby-plugin-remove-generator": "1.0.8",
     "gatsby-plugin-sass": "3.0.0",
     "node-sass": "5.0.0",
     "prop-types": "15.7.2",
